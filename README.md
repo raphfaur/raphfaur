@@ -64,7 +64,7 @@ As I said before, I used to be a network architect and administrator and I had t
   </p>
 
   <p>
-    <a href = "https://github.com/raphFur/loadbalancer" > A C++ Loadbalancer </a> <br>
+    <a href = "https://github.com/raphfaur/loadbalancer" > A C++ Loadbalancer </a> <br>
   I worked a lot with HAProxy, that's why I started developing a loadbalancer in C++
   </p>
 </ul>
