@@ -57,7 +57,7 @@ Debugger
 
 <ul list-style-type="none" align="center">
   <p>
-    <a href = "https://github.com/frozenpeach-dev/debugger" > A embedded Rust test framework </a> <br/>
+    <a href = "https://github.com/frozenpeach-dev/debugger" > An embedded Rust test framework </a> <br/>
     In order to debug and run test in our embedded Rust bootloader, we needed a custom test framework that could start a Qemu instance and automatically analyse execution flow.
     I also developped procedural macro to easily integrate tests in the main project. Not in production yet.
   </p>
