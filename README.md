@@ -48,6 +48,22 @@ With a friend <a href="https://github.com/sleiderr">@sleiderr</a>, we wanted to 
 </ul>
 
 <!-- 
+Debugger
+-->
+
+<h2 align="center" > Debugger and test framework ✔️ </h2> 
+<p align="center" > 💻 Language : <code>Rust</code> <code>x86 Assembly</code> </p> 
+<p align="center" > 🛠️ Features : gdb, rust-gdb, qemu, ld linker</p> 
+
+<ul list-style-type="none" align="center">
+  <p>
+    <a href = "https://github.com/frozenpeach-dev/debugger" > A embedded Rust test framework </a> <br/>
+    In order to debug and run test in our embedded Rust bootloader, we needed a custom test framework that could start a Qemu instance and automatically analyse execution flow.
+    I also developped procedural macro to easily integrate tests in the main project. Not in production yet.
+  </p>
+</ul>
+
+<!-- 
 Network dev
 -->
 
