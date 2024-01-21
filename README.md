@@ -60,6 +60,24 @@ As I said before, I used to be a network architect and administrator and I had t
   </p>
 </ul>
 
+<!-- 
+Python ML and Cyber
+-->
+
+<h2 align="center" > ML 📈 and Cybersecurity 🔒</h2> 
+<p align="center" > 💻 Language : <code>Python</code></p> 
+<p align="center" > 🛠️ Features : Neural networks, audio procesing</p> 
+<p align="center">
+I'm also interested in cybersecurity and machine learning.
+</p>
+<ul list-style-type="none" align="center">
+  <p>
+    <a href = "https://github.com/raphfaur/keyboard-eavesdropping" > Keyboard eavesdropping</a> <br/>
+    I managed to reproduce a keayboard eavesdropping using neural networks, whitout using any library.
+  </p>
+</ul>
+
+
 
 
 
