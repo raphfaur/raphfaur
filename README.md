@@ -32,7 +32,7 @@ Until January 2024, I worked as a network architect and administrator for AS 212
 I'm passionate about many things but my favorite thing at the moment is low level development. Let's have a look at a couple of projects I participated in !
 </p>
 <h2 align="center" > Kernel development 0️⃣1️⃣ </h2> 
-<p align="center" > 💻 Language : Rust, x86 Assembly </p> 
+<p align="center" > 💻 Language : <code>Rust</code> <code>x86 Assembly</code> </p> 
 <p align="center" > 🛠️ Features : MBR, ext4 fs, PIC, I/O APIC, BIOS </p> 
 <p align="center">
 With a friend <a href="https://github.com/sleiderr">@sleiderr</a>, we wanted to learn how do a computer boot. I personnaly began by writing an x86 ASM bootloader and then we decided to try to do it in Rust. We first collaborated to write our own bootloaders and then decided to work together on a common project : we decided to found <a href="https://github.com/frozenpeach-dev">frozenpeach</a> to develop common projects.
@@ -40,6 +40,24 @@ With a friend <a href="https://github.com/sleiderr">@sleiderr</a>, we wanted to 
 <ul list-style-type="none" align="center">
   <a href = "https://github.com/raphfaur/bootloader" > The first bootloader </a> <br/>
   <a href = "https://github.com/frozenpeach-dev/bootloader" > The common bootloader </a>
+</ul>
+
+<h2 align="center" > Low-level network development 🔌 </h2> 
+<p align="center" > 💻 Language : <code>Rust</code> <code>C++</code> <code>C</code> </p> 
+<p align="center" > 🛠️ Features : DHCP, loadbalancing</p> 
+<p align="center">
+As I said before, I used to be a network architect and administrator and I had to deal with networking issues. I'm thus interested in networking development. 
+</p>
+<ul list-style-type="none" align="center">
+  <p>
+    <a href = "https://github.com/frozenpeach-dev/dhcp" > A Rust DHCP </a> <br/>
+    With <a href="https://github.com/frozenpeach-dev">frozenpeach</a> and <a href="https://github.com/sleiderr">@sleiderr</a> again we started the development of a Rust DHCP. I mainly worked on a <strong>high speed database</strong> with both hot and cold storage allowing fast and afe access to DHCP Leases.
+  </p>
+
+  <p>
+    <a href = "https://github.com/frozenpeach-dev/bootloader" > A C++ Loadbalancer </a> <br>
+  I worked a lot with HAProxy, that's why I started developing a loadbalancer in C++
+  </p>
 </ul>
 
 
