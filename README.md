@@ -65,6 +65,21 @@ Debugger
   </p>
 </ul>
 
+
+<!-- 
+Compiler
+-->
+
+<h2 align="center" > Compiler theory training course 📚 </h2> 
+<p align="center" > 💻 Language : <code>C</code></p> 
+
+<ul list-style-type="none" align="center">
+  <p>
+    <a href = "https://github.com/raphfaur/compiler" > My compiler theory exercises </a> <br/>
+    I'm currently interested in compiler and interpreter theory and I started training with the well-known book "Modern Compiler Implementation in C" by ANDREW W. APPEL. This repository is where I code the exercices given by the author.
+  </p>
+</ul>
+
 <!-- 
 Network dev
 -->
