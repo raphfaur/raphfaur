@@ -1,7 +1,7 @@
 <h1 align="center" >Welcome all !</h1>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/raphaël-faure">
+  <a href="https://www.linkedin.com/in/raphael-faure">
   <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" >
   </a>
   <a href="https://twitter.com/raphFaur">
