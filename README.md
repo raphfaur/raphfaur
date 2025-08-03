@@ -15,9 +15,9 @@
 <h2 align="center" > My main skills </h2>
 <p align="center">
   <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white" />
   <img src="https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white"/>
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
@@ -26,8 +26,11 @@
 
 <h2 align="center" >Who am I ? 🧑‍💻 </h2>
 <p align="center">
-I'm a 20 yo French IT student at Paris-Saclay University 👨‍🎓 I live in Paris and love spending my time coding and discovering all kind of stuff !
-Until January 2024, I worked as a network architect and administrator for AS 212424 ~ ViaRezo IP for a whole year. This was an opportunity for me to learn planty of things about clusters, low-level and high-level networking, virtualization and databases.
+I'm a 22 yo French computer science student at Paris-Saclay University 👨‍🎓 With a strong experienc ein low level and kernel development, I'm also interested in algorithms, compiler theory as well as machine learning. I live in Paris and love spending my time coding and discovering all kind of stuff ! </p>
+
+<p align="center">
+I'm currently a software engineer in the CoreOS org at Apple, working on macOS drivers stack. Previously, I worked as a firmware engineer at GoPro, working in both Linux and RTOS environment.
+Until January 2024, I worked as a network architect and administrator for a student internet provider, Viarezo (AS 212424) for a whole year. This was an opportunity for me to learn planty of things about clusters, low-level and high-level networking, virtualization and databases.
 </p>
 
 
@@ -40,7 +43,18 @@ I'm passionate about many things but my favorite thing at the moment is low leve
 Kernel dev
 -->
 
-<h2 align="center" > Kernel development 0️⃣1️⃣ </h2> 
+<h2 align="center" > aarch64 (ARMv8) (micro)kernel development 0️⃣1️⃣ </h2>
+
+<p align="center" > 💻 Language : <code>C</code> <code>ARMv8 assembly</code> <code>C++</code> </p> 
+<p align="center" > 🛠️ Features : GIC, MMU, Timers, UART, Virtual addressing, Userspace process scheduling, Dynqmic memory allocation  </p> 
+<p align="center">
+As a big fan of the ARM architecutre, I decided to dive deep into ARM development by undertaking the development of a kernel in C / C++ languages. The kernel runs kernel mode at EL1 and user mode at EL0. It leverages virtual memory mapping and dynamic memory allocation to offer userspace features. Since I'm really interested in microkernel, this could evolve to one of them in the future. WIP.
+The project is available there :  <a href="https://github.com/raphfaur/foxOS.git">foxOS</a>
+
+</p>
+
+<h2 align="center" > Rust x86 kernel development 0️⃣1️⃣ </h2>
+
 <p align="center" > 💻 Language : <code>Rust</code> <code>x86 Assembly</code> </p> 
 <p align="center" > 🛠️ Features : MBR, ext4 fs, PIC, I/O APIC, BIOS </p> 
 <p align="center">
@@ -51,11 +65,57 @@ With a friend <a href="https://github.com/sleiderr">@sleiderr</a>, we wanted to 
   <a href = "https://github.com/frozenpeach-dev/bootloader" > The common bootloader </a>
 </ul>
 
+<!-- Haskell compiler
+-->
+
+<h2 align="center" > Imperative language interpreter and LLVM IR compiler ⚙️ </h2> 
+<p align="center" > 💻 Language : <code>Haskell</code></p> 
+<p align="center" > 🛠️ Features : LLVM IR compiler, interpreter, runtime exceptions</p> 
+
+<ul list-style-type="none" align="center">
+  <p>
+  I'm super interested in how compilers and interpreter work, so I decided to build my own language and its own interpreter / compiler from scratch. I went with Haskell to build a monadic interpreter and a combinator parser. The compiler compiles to LLVM IR, allowing multi target compilation. The project is available there : <a href = "https://github.com/raphfaur/foxC.git" > foxC </a>
+  </p>
+</ul>
+
+
+<!-- Apple silicon GPU accelerated ML Library
+-->
+
+<h2 align="center" > Apple silicon GPU accelerated ML Library </h2> 
+<p align="center" > 💻 Language : <code>C++</code> <code>Metal</code> <code>Python</code></p> 
+
+<ul list-style-type="none" align="center">
+  <p>
+    <a href = "https://github.com/raphfaur/metal_ml.git" > GPU accelerated ML framework </a> <br/>
+    Passionate about low-level stuff as well as ML, I started developping some ML algorithms in C++ using metal-cpp to leverage Apple silicon GPU acceleration. Using compute shaders, I implemented a GPU accelerated map and a clustering algorithm. The map implmeentation outperforms unordered_map by 1300% on insert time for huge maps.
+  </p>
+  <p>
+    I'm also developing the python bindings for this ML framework, using C python bindings, and especially the buffer protocol.
+  </p>
+</ul>
+
+<!-- Various algorithms
+-->
+
+<h2 align="center" > Multithreaded compression algorithm </h2> 
+<p align="center" > 💻 Language : <code>C++</code>
+<p align="center" > 🛠️ Features : Huffman compression, Huffman decompression, multi threaded compression </p> 
+
+<ul list-style-type="none" align="center">
+  <p>
+    <a href = "https://github.com/raphfaur/compressor.git" > Huffman compression algorithm </a> <br/>
+    To learn more about multithreading and concurrency in C++, I implemented a multithreaded compression algorithm in C++. Originally designed single threaded, the parallelized implementation led to a x20 speedup in compression time.
+  </p>
+</ul>
+
+
+
 <!-- 
 Debugger
 -->
 
-<h2 align="center" > Debugger and test framework ✔️ </h2> 
+<h2 align="center" > Embedded debugger and test framework ✔️ </h2> 
 <p align="center" > 💻 Language : <code>Rust</code> <code>x86 Assembly</code> </p> 
 <p align="center" > 🛠️ Features : gdb, rust-gdb, qemu, ld linker</p> 
 
@@ -156,6 +216,7 @@ As an administrator of an Internet Provider, I had to fix and improve wesites fo
 <h2 align="center" > Tools I'm used to </h2>
 <p align="center">
   <img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" />
+  <img src="https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white">
   <img src="https://img.shields.io/badge/Obsidian-%23483699.svg?style=for-the-badge&logo=obsidian&logoColor=white"/>
   <img src="https://img.shields.io/badge/CLion-black?style=for-the-badge&logo=clion&logoColor=white" />
   <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
@@ -163,6 +224,7 @@ As an administrator of an Internet Provider, I had to fix and improve wesites fo
   <img src="https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white">
   <img src="https://img.shields.io/badge/jinja-white.svg?style=for-the-badge&logo=jinja&logoColor=black">
 </p>
+
 
 
 
