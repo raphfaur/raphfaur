@@ -53,6 +53,8 @@ The project is available there :  <a href="https://github.com/raphfaur/foxOS.git
 
 </p>
 
+
+
 <h2 align="center" > Rust x86 kernel development 0️⃣1️⃣ </h2>
 
 <p align="center" > 💻 Language : <code>Rust</code> <code>x86 Assembly</code> </p> 
@@ -64,6 +66,23 @@ With a friend <a href="https://github.com/sleiderr">@sleiderr</a>, we wanted to 
   <a href = "https://github.com/raphfaur/bootloader" > The first bootloader </a> <br/>
   <a href = "https://github.com/frozenpeach-dev/bootloader" > The common bootloader </a>
 </ul>
+
+
+<!-- VHDL CPU 
+-->
+<h2 align="center" > VHDL custom RISC CPU implementation 🎛️ </h2> 
+<p align="center" > 💻 Language : <code>VHDL</code></p> 
+<p align="center" > 🛠️ Features : register file, ALU,  </p> 
+
+<ul list-style-type="none" align="center">
+  <a href = "https://github.com/raphfaur/cpu" > VHDL CPU for MAX-10 FPGA  </a>
+  <p>
+  I designed a RISC inspired CPU in VHDL. The CPU is pipelined and has its own simple assembly language that supports looops, comparisons and more.  
+  The project runs on MAX 10 FPGA hardware.
+  </p>
+</ul>
+
+
 
 <!-- Haskell compiler
 -->
