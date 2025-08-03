@@ -29,7 +29,7 @@
 I'm a 22 yo French computer science student at Paris-Saclay University 👨‍🎓 With a strong experienc ein low level and kernel development, I'm also interested in algorithms, compiler theory as well as machine learning. I live in Paris and love spending my time coding and discovering all kind of stuff ! </p>
 
 <p align="center">
-I'm currently a software engineer in the CoreOS org at Apple, working on macOS drivers stack. Previously, I worked as a firmware engineer at GoPro, working in both Linux and RTOS environment.
+I'm currently interning as a software engineer in the CoreOS org at Apple, working on macOS driver stack. Previously, I worked as a firmware engineer at GoPro, working in both Linux and RTOS environment.
 Until January 2024, I worked as a network architect and administrator for a student internet provider, Viarezo (AS 212424) for a whole year. This was an opportunity for me to learn planty of things about clusters, low-level and high-level networking, virtualization and databases.
 </p>
 
